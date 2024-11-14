@@ -1,0 +1,7 @@
+{
+    "accuracy": 0.8757,
+    "num_features": 784,
+    "percentage_of_features": 100.0,
+    "feature_search_time": 0,
+    "training_time": 22.05665683746338
+}
