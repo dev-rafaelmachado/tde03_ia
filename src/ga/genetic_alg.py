@@ -21,7 +21,6 @@ def genetic_algorithm(
     start_time_feature = time.time()
 
     population = np.random.randint(2, size=(population_size, num_features))
-    print(population)
 
     with tqdm(
         total=generations,
