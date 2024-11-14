@@ -2,6 +2,6 @@
     "accuracy": 0.784,
     "num_features": 46,
     "percentage_of_features": 3.700000047683716,
-    "feature_search_time": 9245.7404820919036865,
+    "feature_search_time": 9245.7204820919036865,
     "training_time": 0.019333030700683594
 }

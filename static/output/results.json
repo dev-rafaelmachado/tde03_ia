@@ -4,13 +4,13 @@
         "num_features": 784,
         "percentage_of_features": 100.0,
         "feature_search_time": 0,
-        "training_time": 22.05665683746338
+        "training_time": 22.03665683746338
     },
     "wrapper": {
         "accuracy": 0.784,
         "num_features": 46,
         "percentage_of_features": 3.700000047683716,
-        "feature_search_time": 9245.7404820919036865,
+        "feature_search_time": 9245.7204820919036865,
         "training_time": 0.019333030700683594
     },
     "ga": {
@@ -18,6 +18,6 @@
         "num_features": 1,
         "percentage_of_features": 0.12755102040816327,
         "feature_search_time": 349.3915846347809,
-        "training_time": 0.004003286361694336
+        "training_time": 11.003286261894336
     }
 }
