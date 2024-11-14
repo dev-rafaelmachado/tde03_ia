@@ -8,7 +8,7 @@ def fitness(individual, X_train, y_train, X_val, y_val, penalty=0.01):
     if len(selected_features) == 0:
         return 0
 
-    model = DecisionTreeClassifier()
+    model = DecisionTreeClassifier(random_state=1)
     model.fit(X_train.iloc[:, selected_features], y_train)
     y_pred = model.predict(X_val.iloc[:, selected_features])
 

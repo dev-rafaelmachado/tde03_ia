@@ -90,7 +90,7 @@ def genetic_algorithm(
     feature_search_time = time.time() - start_time_feature
 
     start_time_model = time.time()
-    model = DecisionTreeClassifier()
+    model = DecisionTreeClassifier(random_state=1)
     model.fit(X_train.iloc[:, selected_features], y_train)
     training_time = time.time() - start_time_model
 
